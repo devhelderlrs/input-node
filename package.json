@@ -1,0 +1,19 @@
+{
+  "name": "sprint-1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "HELDER LUCAS",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "input": "^1.0.1",
+    "prompt-sync": "^4.2.0",
+    "readline": "^1.3.0"
+  },
+  "description": ""
+}
