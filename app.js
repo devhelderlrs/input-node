@@ -15,9 +15,9 @@ async function pegaInput() { // FUNÇÃO ASSINCRONA
 
     arr = arr.sort(); // .SORT() -> ORDENA O CONTEÚDO DO ARRAY EM ORDEM CRESCENTE
 
-    for(let i=0;i < arr.length; i++){ // LAÇO FOR PARA EXIBIR POR LINHA NO CONSOLE
-        console.log(chalk.green(`Propriedades CSS: ${arr[i]}`));
-    }
+    arr.forEach(element => {
+        console.log(chalk.green(`Propriedades CSS: ${element}`))
+    })
 }
 
 pegaInput(); // CHAMADA DA FUNÇÃO
